@@ -57,7 +57,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div className="phone__screen__application-grid">
+            <ul className="phone__screen__application-grid">
               {
                 gridApps.map((item, i) => (
                   <li className='phone__screen__application-grid__item' key={i}>
@@ -70,7 +70,7 @@ function App() {
                 <img src={bbIcon} className="phone__screen__application-grid__item--icon" />
                 Bloodbath
               </li>
-            </div>
+            </ul>
             <div className="phone__screen__search-bar">
               <img className="phone__screen__search-bar--icon" src={searchIcon} />
               Поиск
