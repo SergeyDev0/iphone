@@ -41,7 +41,9 @@ function App() {
                 {time.hours}:{time.minutes}
               </div>
               <div className="phone__screen__dynamic-island">
-                <div className="phone__screen__dynamic-island__camera"></div>
+                <div className="phone__screen__dynamic-island__camera">
+                  <div className="phone__screen__dynamic-island__camera-lens"></div>
+                </div>
               </div>
               <ul className="phone__screen__powerline-list">
                 <li className="phone__screen__powerline-list__item">
